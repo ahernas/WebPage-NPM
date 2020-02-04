@@ -1,0 +1,62 @@
+// Variables
+
+$color-details: #fed136;
+$color-header: white;
+$color-text: black;
+
+// Global
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+// Introduction
+
+.introduction {
+  background-image: url("https://i.postimg.cc/9F4nwZ3H/Bez-nazwy-1.png");
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+// Navigation
+
+.navigation {
+}
+.navigation .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.navigation h3 {
+  font-size: 33px;
+  color: $color-details;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: 50%;
+}
+
+.navigation ul li {
+  display: inline-block;
+  position: relative;
+  padding-right: 30px;
+}
+
+.navigation ul li a {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation ul ul li {
+  display: none;
+}

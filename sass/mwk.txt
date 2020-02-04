@@ -1,0 +1,13 @@
+
+
+.navigation ul li:hover li {
+  display: block;
+  margin: 12px;
+  position: absolute;
+  background-color: white;
+
+}
+
+.navigation ul ul a {
+  color: $color-text;
+}
