@@ -161,4 +161,36 @@ p {
   color: #777777;
   margin-top: 0;
 }
+
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.gallery-wrapper {
+  margin: 0 230px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.box-foto {
+  background-color: white;
+  width: 26.33%;
+  margin: 0 30px 30px 30px;
+}
+
+.box-foto img {
+  width: 100%;
+  height: auto;
+}
+
+.box-foto h4 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+}
 /*# sourceMappingURL=style.css.map */

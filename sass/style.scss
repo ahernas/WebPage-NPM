@@ -174,3 +174,34 @@ p {
   margin-top: 0;
 }
 
+// Our portfolio
+
+.portfolio {
+  background-color: #f7f7f7;
+}
+.gallery-wrapper {
+  margin: 0 230px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box-foto {
+  background-color: white;
+  width: 26.33%;
+  margin: 0 30px 30px 30px;
+}
+
+.box-foto img {
+  width: 100%;
+  height: auto;
+
+}
+
+.box-foto h4 {
+  text-align: center;
+  font-family: $font-header;
+  font-weight: bold;
+  font-size: 19px;
+}
+
