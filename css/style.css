@@ -199,4 +199,45 @@ p {
   font-weight: bold;
   font-size: 19px;
 }
+
+.row-footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.row-footer p {
+  margin: 20px 115px 20px 230px;
+}
+
+.social {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.small-circle {
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  background: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 2;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.small-circle i {
+  font-size: 20px;
+  color: white;
+  z-index: 1;
+}
 /*# sourceMappingURL=style.css.map */

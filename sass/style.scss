@@ -211,3 +211,38 @@ p {
   font-size: 19px;
 }
 
+// Footer
+
+.row-footer {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.row-footer p {
+  margin: 20px 115px 20px 230px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.small-circle {
+  display: flex;
+  margin-right: 20px;
+  background: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-circle i {
+  font-size: 20px;
+  color: white;
+  z-index: 1;
+}
