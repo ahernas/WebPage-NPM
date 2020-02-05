@@ -97,6 +97,7 @@
   text-align: center;
   font-style: italic;
   margin-bottom: 80px;
+  color: #777777;
 }
 
 .row {
@@ -141,7 +142,6 @@
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  transition: all 1s;
 }
 
 .circle i {
@@ -153,5 +153,12 @@
   text-align: center;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.box p {
+  font-style: normal;
+  color: #777777;
+  margin-top: 0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@
 $color-details: #fed136;
 $color-header: white;
 $color-text: black;
+$color-text2: #777777;
 
 $font-header: 'Montserrat', sans-serif;
 $font-text: 'Roboto Slab', serif;
@@ -117,6 +118,7 @@ $font-text: 'Roboto Slab', serif;
   text-align: center;
   font-style: italic;
   margin-bottom: 80px;
+  color: $color-text2;
 }
 
 .row {
@@ -152,7 +154,6 @@ $font-text: 'Roboto Slab', serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 1s;
 }
 
 .circle i {
@@ -164,4 +165,12 @@ $font-text: 'Roboto Slab', serif;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 15px;
 }
+
+.box p {
+  font-style: normal;
+  color: $color-text2;
+  margin-top: 0;
+}
+
