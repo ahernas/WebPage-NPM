@@ -98,6 +98,9 @@ $font-text: 'Roboto Slab', serif;
   padding: 18px;
   font-family: $font-header;
   font-weight: bold;
+  text-decoration: none;
+  color: white;
+
 }
 
 
@@ -195,7 +198,10 @@ p {
 .box-foto img {
   width: 100%;
   height: auto;
+}
 
+.box-foto p {
+  margin-bottom: 20px;
 }
 
 .box-foto h4 {
